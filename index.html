@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy 16th Birthday, Devijii 🤍☕</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- SPLASH SCREEN / OPENING -->
+  <div id="splashScreen" class="splash-screen">
+    <div class="splash-content">
+      <div class="splash-title">Happy Birthday, Devijii 🤍☕</div>
+      
+      <div class="typing-animation">
+        <div class="typing-text"></div>
+        <span class="cursor">|</span>
+      </div>
+
+      <div class="splash-subtitle" style="display: none; margin-top: 30px;">
+        A little birthday surprise, made specially for you…
+      </div>
+
+      <button id="openSurpriseBtn" class="open-btn" style="display: none;">
+        Open Your Surprise 💌
+      </button>
+
+      <div class="floating-elements">
+        <div class="heart">🤍</div>
+        <div class="heart">☕</div>
+        <div class="heart">🤍</div>
+        <div class="heart">✨</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div id="mainContent" class="main-content" style="display: none;">
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="navbar-content">
+        <span class="logo">Devijii's 16 🤍</span>
+        <div class="music-player">
+          <button id="musicToggle" class="music-btn" title="Toggle music">🎵</button>
+          <audio id="bgMusic" src="assets/music/birthday-music.mp3" loop></audio>
+        </div>
+      </div>
+    </nav>
+
+    <!-- SECTION 1: BIRTHDAY LETTER -->
+    <section class="section letter-section">
+      <div class="section-container">
+        <h1 class="section-title">Dear Devijii 🤍</h1>
+        
+        <div class="letter-container">
+          <div class="letter">
+            <p class="letter-greeting">Dear Devijii,</p>
+
+            <p class="letter-text">
+              Today marks another year of your existence on this beautiful planet, and honestly? 
+              I'm really glad you decided to show up on October 19, 2010. 😭
+            </p>
+
+            <p class="letter-text">
+              It's funny because our friendship is still so new—just about to hit 3 months in October—
+              but somehow you've already managed to become one of my favorite people. 
+              Like, how does that even work? How do you go from being someone I just met to someone 
+              I can't imagine not having around?
+            </p>
+
+            <p class="letter-text">
+              And let me be honest, you're quite the character. 😂
+              <br>
+              You get angry at me. Like, genuinely angry. The kind of anger where I'm standing there 
+              wondering what I did wrong this time.
+              <br>
+              You give me orders. Not ask, not suggest—just straight up command me to do things. 
+              And somehow, I end up doing them.
+              <br>
+              Your mood swings are legendary. Literally. One minute you're laughing, the next minute 
+              I'm worried I said something wrong.
+              <br>
+              And your memory? Don't even get me started. You'll forget half the important things 
+              I tell you, but somehow remember that one tiny detail I mentioned in passing. 🤣
+            </p>
+
+            <p class="letter-text">
+              But here's the thing, Devijii…
+              <br>
+              Despite all of that—or maybe because of all of that—you're genuinely special to me.
+              <br>
+              Your anger shows me you care. Your orders show me your confidence. Your mood swings 
+              show me you're real, not fake. And your forgetfulness? Well, it's just another thing 
+              that makes you uniquely, wonderfully you.
+            </p>
+
+            <p class="letter-text">
+              As you turn 16 today, I hope you know how precious you are.
+              <br>
+              I hope you chase your dreams fearlessly.
+              <br>
+              I hope you keep that beautiful smile even when things get tough.
+              <br>
+              I hope you know that you deserve all the happiness, all the good moments, and all 
+              the good people coming into your life.
+              <br>
+              And I hope that I get to be a part of many more of your birthdays and memories.
+            </p>
+
+            <p class="letter-closing">
+              Happy Birthday to my very own Devijii. 🤍☕
+              <br>
+              Here's to 16 and everything waiting for you ahead.
+            </p>
+
+            <p class="letter-signature">
+              — Your Bestie 🤍
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: THINGS ONLY I KNOW -->
+    <section class="section things-section">
+      <div class="section-container">
+        <h1 class="section-title">Things Only I Know About Devijii 🤍</h1>
+        <p class="section-subtitle">Click each card to reveal the chaos… I mean, the truth.</p>
+
+        <div class="cards-grid">
+          <!-- Card 1 -->
+          <div class="reveal-card">
+            <div class="card-front">
+              <div class="card-emoji">😤</div>
+              <div class="card-title">Anger Mode</div>
+              <p class="card-hint">Click to reveal...</p>
+            </div>
+            <div class="card-back">
+              <p>"Approach Devijii carefully. She has entered anger mode. Proceed with caution, apologies and maybe some coffee."</p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="reveal-card">
+            <div class="card-front">
+              <div class="card-emoji">👑</div>
+              <div class="card-title">Order Department</div>
+              <p class="card-hint">Click to reveal...</p>
+            </div>
+            <div class="card-back">
+              <p>"She doesn't ask. She doesn't suggest. She simply gives orders. And somehow, I'm always the employee. No resignation letter yet."</p>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="reveal-card">
+            <div class="card-front">
+              <div class="card-emoji">🌪️</div>
+              <div class="card-title">Mood Swing Express</div>
+              <p class="card-hint">Click to reveal...</p>
+            </div>
+            <div class="card-back">
+              <p>"Today's weather forecast: 20% sunshine, 80% Devijii mood swings. Bring an umbrella just in case. And maybe tissues."</p>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="reveal-card">
+            <div class="card-front">
+              <div class="card-emoji">🧠</div>
+              <div class="card-title">Memory.exe</div>
+              <p class="card-hint">Click to reveal...</p>
+            </div>
+            <div class="card-back">
+              <p>"Sometimes her memory decides to take a permanent vacation. Important things? Forgotten. My one mistake? Archived forever."</p>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="reveal-card">
+            <div class="card-front">
+              <div class="card-emoji">🤍</div>
+              <div class="card-title">Soft Heart</div>
+              <p class="card-hint">Click to reveal...</p>
+            </div>
+            <div class="card-back">
+              <p>"Behind all the anger, orders, mood swings and drama is someone genuinely precious. Someone who matters more than all her quirks combined."</p>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="reveal-card">
+            <div class="card-front">
+              <div class="card-emoji">☕</div>
+              <div class="card-title">Coffee Companion</div>
+              <p class="card-hint">Click to reveal...</p>
+            </div>
+            <div class="card-back">
+              <p>"Coffee solves everything. According to Devijii's personal philosophy. And honestly? She might be onto something."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: MEMORIES GALLERY -->
+    <section class="section memories-section">
+      <div class="section-container">
+        <h1 class="section-title">Our Memories 📸</h1>
+        <p class="section-subtitle">A coffee and polaroid scrapbook of us. Replace these images with your favorite photos!</p>
+
+        <div class="polaroid-gallery">
+          <!-- EDIT THESE IMAGES -->
+          <div class="polaroid">
+            <div class="polaroid-img" style="background-color: #e8ddd5;">
+              <!-- REPLACE WITH: <img src="assets/images/photo-01.jpg" alt=""> -->
+              Photo 01 🤍
+            </div>
+            <div class="polaroid-caption">The beginning of our little story 🤍</div>
+          </div>
+
+          <div class="polaroid">
+            <div class="polaroid-img" style="background-color: #d4c5b8;">
+              <!-- REPLACE WITH: <img src="assets/images/photo-02.jpg" alt=""> -->
+              Photo 02 ☕
+            </div>
+            <div class="polaroid-caption">Us being completely normal… obviously. 😂</div>
+          </div>
+
+          <div class="polaroid">
+            <div class="polaroid-img" style="background-color: #e8ddd5;">
+              <!-- REPLACE WITH: <img src="assets/images/photo-03.jpg" alt=""> -->
+              Photo 03 📸
+            </div>
+            <div class="polaroid-caption">Another memory for the collection ☕</div>
+          </div>
+
+          <div class="polaroid">
+            <div class="polaroid-img" style="background-color: #d4c5b8;">
+              <!-- REPLACE WITH: <img src="assets/images/photo-04.jpg" alt=""> -->
+              Photo 04 🌙
+            </div>
+            <div class="polaroid-caption">Three months, countless moments.</div>
+          </div>
+
+          <div class="polaroid">
+            <div class="polaroid-img" style="background-color: #e8ddd5;">
+              <!-- REPLACE WITH: <img src="assets/images/photo-05.jpg" alt=""> -->
+              Photo 05 😭
+            </div>
+            <div class="polaroid-caption">Proof that we actually survived each other. 😭</div>
+          </div>
+
+          <div class="polaroid">
+            <div class="polaroid-img" style="background-color: #d4c5b8;">
+              <!-- REPLACE WITH: <img src="assets/images/photo-06.jpg" alt=""> -->
+              Photo 06 🎂
+            </div>
+            <div class="polaroid-caption">This one deserves its own frame.</div>
+          </div>
+        </div>
+
+        <div class="image-instructions">
+          <p>💡 <strong>How to add your photos:</strong></p>
+          <p>1. Create folder: <code>/assets/images/</code></p>
+          <p>2. Add your photos: <code>photo-01.jpg, photo-02.jpg</code> etc.</p>
+          <p>3. Replace the placeholder divs with: <code>&lt;img src="assets/images/photo-01.jpg" alt=""&gt;</code></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: WHY DEVIJII IS SPECIAL -->
+    <section class="section why-special-section">
+      <div class="section-container">
+        <h1 class="section-title">Why Devijii Is Special 🤍</h1>
+
+        <div class="reasons-list">
+          <div class="reason-card">
+            <div class="reason-dot">✨</div>
+            <p>Because somehow you became important to me so quickly.</p>
+          </div>
+
+          <div class="reason-card">
+            <div class="reason-dot">😤</div>
+            <p>Because even your angry version is somehow unforgettable.</p>
+          </div>
+
+          <div class="reason-card">
+            <div class="reason-dot">💬</div>
+            <p>Because you can turn an ordinary conversation into a memory.</p>
+          </div>
+
+          <div class="reason-card">
+            <div class="reason-dot">🌟</div>
+            <p>Because your presence makes things a little more fun.</p>
+          </div>
+
+          <div class="reason-card">
+            <div class="reason-dot">👑</div>
+            <p>Because behind all the drama and orders, you're genuinely amazing.</p>
+          </div>
+
+          <div class="reason-card">
+            <div class="reason-dot">🤍</div>
+            <p>Because I'm really glad our paths crossed in October.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: BIRTHDAY AGE -->
+    <section class="section birthday-age-section">
+      <div class="section-container">
+        <div class="age-display">
+          <div class="date-birth">19 • 10 • 2010</div>
+          <div class="age-arrow">↓</div>
+          <div class="age-big">16 Years of Devijii 🤍</div>
+          <p class="age-message">And here's to everything waiting for you ahead…</p>
+          
+          <div class="birthday-cake">
+            <div class="cake">🎂</div>
+            <div class="candles">
+              <span class="candle">🕯️</span>
+              <span class="candle">🕯️</span>
+              <span class="candle">🕯️</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: INTERACTIVE GIFT -->
+    <section class="section gift-section">
+      <div class="section-container">
+        <p class="gift-message">Devijii, I have one more thing for you…</p>
+
+        <div class="gift-container">
+          <div id="giftBox" class="gift-box">
+            <div class="gift-top"></div>
+            <div class="gift-front"></div>
+            <div class="gift-ribbon"></div>
+            <div class="gift-ribbon-v"></div>
+          </div>
+        </div>
+
+        <div id="giftReveal" class="gift-reveal" style="display: none;">
+          <div class="gift-reveal-content">
+            <div class="confetti-burst"></div>
+            <h2>SURPRISE! 🎉🤍</h2>
+            <p class="surprise-text">You deserve all the happiness, laughter, coffee and beautiful moments in the world.</p>
+            <button id="oneMoreBtn" class="one-more-btn">One More Surprise 👀</button>
+          </div>
+        </div>
+
+        <div id="finalSurprise" class="final-surprise" style="display: none;">
+          <div class="final-surprise-content">
+            <h3>You thought I was done?</h3>
+            <p>Nope. You're stuck with my bakwaas now. 😭☕🤍</p>
+            <p class="final-note">This website, this letter, these words—it's all for you, Devijii.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: COFFEE MOMENT -->
+    <section class="section coffee-section">
+      <div class="section-container">
+        <h1 class="section-title">A Little Coffee Break ☕</h1>
+
+        <div class="coffee-display">
+          <div class="coffee-cup">
+            <div class="coffee-cup-body"></div>
+            <div class="coffee-cup-handle"></div>
+            <div class="steam">
+              <span class="steam-wave">☁️</span>
+              <span class="steam-wave">☁️</span>
+              <span class="steam-wave">☁️</span>
+            </div>
+          </div>
+
+          <div class="coffee-text">
+            <p class="coffee-line-1">If our friendship were a coffee…</p>
+            <p class="coffee-line-2">It would probably be 50% sweetness, 30% chaos, 20% you ordering me around. ☕😂</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 8: THREE MONTHS TIMELINE -->
+    <section class="section timeline-section">
+      <div class="section-container">
+        <h1 class="section-title">Just 3 Months… 🤍</h1>
+        <p class="section-subtitle">But somehow so many memories.</p>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Month 1</h3>
+              <p>We met 💫 Friendship began 🤍</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Month 2</h3>
+              <p>Started knowing each other's weirdness 😂</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Month 3 (October)</h3>
+              <p>Officially survived Devijii's orders, anger & mood swings 😭</p>
+            </div>
+          </div>
+
+          <div class="timeline-final">
+            <p>And this is only the beginning. 🤍</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 9: FINAL SCREEN -->
+    <section class="section final-section">
+      <div class="section-container">
+        <div class="final-content">
+          <div class="final-stars">
+            ✨ 🌙 ✨ 🤍 ✨ 🌙 ✨
+          </div>
+
+          <h2 class="final-greeting">Dear Devijii…</h2>
+
+          <p class="final-message">
+            Here's to more conversations, more laughter, more memories,<br>
+            more random drama, more coffee moments,<br>
+            and many more birthdays together.
+          </p>
+
+          <h1 class="final-title">HAPPY BIRTHDAY, SHRUSHTI 🤍</h1>
+
+          <p class="final-subtitle">Happy 16th Birthday, Devijii ☕🎂</p>
+
+          <p class="final-credit">Made specially for you by your bestie 🤍</p>
+
+          <button id="replayBtn" class="replay-btn">Replay the Magic ✨</button>
+        </div>
+
+        <div class="floating-hearts-final">
+          <div class="float-heart">🤍</div>
+          <div class="float-heart">☕</div>
+          <div class="float-heart">✨</div>
+          <div class="float-heart">🤍</div>
+          <div class="float-heart">☕</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>Made with 🤍 and ☕ for Devijii • 19 October 2026</p>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
